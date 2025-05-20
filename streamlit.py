@@ -3,6 +3,8 @@ import streamlit as st
 
 golden_df = pd.read_csv('golden_record.csv')
 
+st.set_page_config(page_title="EGAT Realtime Power Dashboard (lakeFS)", layout="wide")
+
 st.title("MDM Golden Record Data Model")
 
 st.write("## Golden Records Table")
